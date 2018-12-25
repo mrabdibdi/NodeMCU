@@ -1,0 +1,26 @@
+{
+  "name": "web_server",
+  "version": "1.0.0",
+  "description": "MQTT listener",
+  "main": "mqtt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrabdibdi/NodeMCU.git"
+  },
+  "keywords": [
+    "nodemcu",
+    "mqtt"
+  ],
+  "author": "Studio Webux",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/mrabdibdi/NodeMCU/issues"
+  },
+  "homepage": "https://github.com/mrabdibdi/NodeMCU#readme",
+  "dependencies": {
+    "mqtt": "^2.18.8"
+  }
+}
