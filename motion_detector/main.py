@@ -56,7 +56,7 @@ def sub_cb(topic, msg):
 
 def main(server=SERVER, port=PORT, pwd=PASSWORD, user=USER):
     global CLIENT_ID, activated
-    c = MQTTClient(CLIENT_ID, server, port, user, pwd, keepalive=120, ssl=True)
+    c = MQTTClient(CLIENT_ID, server, port, user, pwd, ssl=True)
     c.set_callback(sub_cb)
     c.connect()
     c.subscribe("CMD") # where we check if the script should run or not
